@@ -28,9 +28,12 @@
 }
 .btn-section{
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 .button{
-  border-radius: 50%;
+  border-radius: 20%;
   border: none;
   padding: 1rem;
   font-weight: 900;
@@ -49,6 +52,10 @@
   background-color: #104B07;
   color: #E6CDB2;
 }
+.increasex2-btn{
+  background-color: #34b220;
+}
+
 
 /* Error Boundary */
 .error-btn{
